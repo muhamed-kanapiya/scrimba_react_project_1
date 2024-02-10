@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Inter, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #282d35;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #21222a;
+  padding: 38px 27px 32px 27px;
+}
+
+.nav--left-text {
+  color: #61dafb;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.05em;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.nav--right-text {
+  font-size: 16px;
+  font-weight: 600;
+  color: #deebf8;
+}
+
+main {
+  padding: 50px 27px;
+  background: url(./assets/reactjs2.svg) no-repeat right center;
+}
+
+.features > li::marker {
+  color: #61dafb;
+  font-size: 1.5em;
+}
